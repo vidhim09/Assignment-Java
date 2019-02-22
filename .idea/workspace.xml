@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1219dbfe-a940-4844-bfd8-80c53df8c19e" name="Default Changelist" comment="" />
+    <list default="true" id="1219dbfe-a940-4844-bfd8-80c53df8c19e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ExerciseCollections/AssignmentCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExerciseJava2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExerciseThreading/AssignmentThreading.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,22 +18,24 @@
     <session id="885435942">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.69" value="1" />
           <entry key="project.open.time.71" value="1" />
-          <entry key="project.open.time.73" value="1" />
+          <entry key="project.open.time.73" value="2" />
           <entry key="project.open.time.74" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.78" value="1" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="4" />
+          <entry key="JAVA" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5892" />
+          <entry key="JAVA" value="11467" />
         </counts>
       </usages-collector>
     </session>
@@ -38,17 +45,56 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
+            <state relative-caret-position="314">
               <caret line="56" column="29" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Exercise/Assignment.java">
+        <entry file="file://$PROJECT_DIR$/src/ExerciseJava2/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="327" lean-forward="true" selection-start-line="327" selection-end-line="327" />
+            <state relative-caret-position="90">
+              <caret line="161" column="12" selection-start-line="161" selection-start-column="12" selection-end-line="161" selection-end-column="12" />
+              <folding>
+                <element signature="e#161#162#0" expanded="true" />
+                <element signature="e#195#196#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ExerciseCollections/AssignmentCollection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-360">
+              <caret line="156" column="6" selection-start-line="156" selection-start-column="6" selection-end-line="156" selection-end-column="6" />
+              <folding>
+                <element signature="e#171#172#0" expanded="true" />
+                <element signature="e#195#196#0" expanded="true" />
+                <element signature="class#Employee#0" />
+                <element signature="e#1046#1047#0" expanded="true" />
+                <element signature="e#1074#1075#0" expanded="true" />
+                <element signature="method#Employee#0;class#Employee#0" />
+                <element signature="class#Student#0" />
+                <element signature="method#toString#0;class#Student#0" />
+                <element signature="method#Student#0;class#Student#0" />
+                <element signature="e#3890#3891#0" expanded="true" />
+                <element signature="e#3922#3923#0" expanded="true" />
+                <element signature="method#question1#0;class#AssignmentCollection#0" />
+                <element signature="method#question2#0;class#AssignmentCollection#0" />
+                <element signature="method#countUnique#0;class#AssignmentCollection#0" />
+                <element signature="method#question3#0;class#AssignmentCollection#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Employee.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="14" selection-start-line="5" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -58,9 +104,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Singleton" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/ExerciseJava2</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -71,6 +123,10 @@
         <option value="$PROJECT_DIR$/src/main/Employee.java" />
         <option value="$PROJECT_DIR$/src/main/Test.java" />
         <option value="$PROJECT_DIR$/src/Exercise/Assignment.java" />
+        <option value="$PROJECT_DIR$/src/ExerciseJava2/Single.java" />
+        <option value="$PROJECT_DIR$/src/ExerciseThreading/AssignmentThreading.java" />
+        <option value="$PROJECT_DIR$/src/ExerciseCollections/AssignmentCollection.java" />
+        <option value="$PROJECT_DIR$/src/ExerciseJava2/Main.java" />
       </list>
     </option>
   </component>
@@ -81,10 +137,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="69" />
-    <option name="y" value="47" />
-    <option name="width" value="1169" />
-    <option name="height" value="636" />
+    <option name="y" value="25" />
+    <option name="width" value="683" />
+    <option name="height" value="686" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -92,7 +147,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -109,19 +163,26 @@
               <item name="Employee" type="b2602c69:ProjectViewProjectNode" />
               <item name="Employee" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="ExerciseJava2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Employee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Employee" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550688259615" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550862759861" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -140,13 +201,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Assignment">
+  <component name="RunManager" selected="Application.AssignmentCollection">
     <configuration name="Assignment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Exercise.Assignment" />
       <module name="Employee" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Exercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AssignmentCollection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExerciseCollections.AssignmentCollection" />
+      <module name="Employee" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ExerciseCollections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExerciseJava2.Main" />
+      <module name="Employee" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ExerciseJava2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,9 +257,13 @@
     <list>
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.Assignment" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.AssignmentCollection" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AssignmentCollection" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Assignment" />
         <item itemvalue="Application.Test" />
       </list>
@@ -191,12 +282,15 @@
       <workItem from="1550553924947" duration="13148000" />
       <workItem from="1550637591306" duration="17036000" />
       <workItem from="1550674532237" duration="8787000" />
-      <workItem from="1550722408855" duration="646000" />
+      <workItem from="1550722408855" duration="6057000" />
+      <workItem from="1550766768487" duration="6363000" />
+      <workItem from="1550809130682" duration="22559000" />
+      <workItem from="1550852849703" duration="6925000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39617000" />
+    <option name="totallyTimeSpent" value="80875000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="686" extended-state="6" />
@@ -207,17 +301,17 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.26136363" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.17651515" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.39208633" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.3291367" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.2823741" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.3297491" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.3291367" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
@@ -228,7 +322,7 @@
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.24960753" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
     </layout>
     <layout-to-restore>
@@ -268,25 +362,78 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/Employee.java">
+    <entry file="file://$PROJECT_DIR$/src/ExerciseJava2/Single.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="66" column="30" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="30" />
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/ExerciseThreading/AssignmentThreading.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="56" column="29" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
+        <state relative-caret-position="75">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="14" selection-start-line="5" selection-end-line="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Exercise/Assignment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="327" lean-forward="true" selection-start-line="327" selection-end-line="327" />
+        <state relative-caret-position="397">
+          <caret line="316" column="23" selection-start-line="316" selection-start-column="23" selection-end-line="316" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="56" column="29" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ExerciseCollections/AssignmentCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360">
+          <caret line="156" column="6" selection-start-line="156" selection-start-column="6" selection-end-line="156" selection-end-column="6" />
+          <folding>
+            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="class#Employee#0" />
+            <element signature="e#1046#1047#0" expanded="true" />
+            <element signature="e#1074#1075#0" expanded="true" />
+            <element signature="method#Employee#0;class#Employee#0" />
+            <element signature="class#Student#0" />
+            <element signature="method#toString#0;class#Student#0" />
+            <element signature="method#Student#0;class#Student#0" />
+            <element signature="e#3890#3891#0" expanded="true" />
+            <element signature="e#3922#3923#0" expanded="true" />
+            <element signature="method#question1#0;class#AssignmentCollection#0" />
+            <element signature="method#question2#0;class#AssignmentCollection#0" />
+            <element signature="method#countUnique#0;class#AssignmentCollection#0" />
+            <element signature="method#question3#0;class#AssignmentCollection#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ExerciseJava2/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="161" column="12" selection-start-line="161" selection-start-column="12" selection-end-line="161" selection-end-column="12" />
+          <folding>
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
