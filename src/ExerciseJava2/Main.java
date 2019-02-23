@@ -2,6 +2,7 @@ package ExerciseJava2;
 
 import java.util.Scanner;
 
+
 //======================================================================
 //  Question 4 Class for Reference
 //======================================================================
@@ -127,6 +128,7 @@ public class Main implements Cloneable{
     //3. WAP to produce NoClassDefFoundError and ClassNotFoundException exception.
     static void question3(){
         System.out.println("Q3. WAP to produce NoClassDefFoundError and ClassNotFoundException exception.");
+        System.out.println("Refer Question3.java in the same package.");
         System.out.println("------------------------------------------");
     }
 

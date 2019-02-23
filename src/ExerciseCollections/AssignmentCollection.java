@@ -1,10 +1,12 @@
 package ExerciseCollections;
 
+import java.lang.reflect.Array;
+import java.text.SimpleDateFormat;
 import java.util.*;
 
 
 //=====================================================================
-//  Question 5 Class for Reference
+//  Question 4 Class for Reference
 //=====================================================================
 
 class SalaryComparator implements Comparator<Employee>{
@@ -89,7 +91,7 @@ class Employee{
 }
 
 //=====================================================================
-//  Question 6 Class for Refernece
+//  Question 5 Class for Reference
 //=====================================================================
 class ScoreNameComparator implements Comparator<Student>{
     @Override
@@ -142,6 +144,24 @@ class Student{
         this.age = age;
     }
 }
+
+//=====================================================================
+//  Question 6 Class for Reference
+//=====================================================================
+class SortComparator implements Comparator<Integer>{
+    private Map<Integer, Integer> fmap;
+    public SortComparator(Map<Integer, Integer> map) {
+        this.fmap = map;
+    }
+
+    @Override
+    public int compare(Integer o1, Integer o2) {
+        int fcomp = fmap.get(o1).compareTo(fmap.get(o2));
+        int vcomp = o1.compareTo(o2);
+        return fcomp == 0 ? vcomp : fcomp;
+    }
+}
+
 
 //======================================================================
 //  Main Class
@@ -247,7 +267,25 @@ public class AssignmentCollection {
     //6.Print the elements of an array in the decreasing frequency if 2 numbers have same frequency then print the one which came first.
     static void question6(){
         System.out.println("6.Print the elements of an array in the decreasing frequency if 2 numbers have same frequency then print the one which came first.");
-
+        int arr[] = {1,1,1,1,2,3,3,2,4};
+        System.out.println("Current Array");
+        for (int i = 0 ; i < arr.length ; i++)
+            System.out.print(arr[i]+" ");
+        List<Integer> list = new ArrayList<>();
+        Map<Integer,Integer> map = new TreeMap<>();
+        int count = 1;
+        for (int i = 0 ; i < arr.length;i++){
+            list.add(arr[i]);
+            if(map.containsKey(arr[i]))
+                map.put(arr[i],map.get(arr[i])+1);
+            else
+                map.put(arr[i],count);
+        }
+        System.out.println();
+        System.out.println("Sorted Array According Frequency");
+        SortComparator sc = new SortComparator(map);
+        Collections.sort(list,sc);
+        System.out.println(list);
         System.out.println("--------------------------------------");
     }
 
@@ -260,12 +298,19 @@ public class AssignmentCollection {
     //8.Write a program to format date as example "21-March-2016"
     static void question8(){
         System.out.println("8.Write a program to format date as example \"21-March-2016\"");
+        String datePattern = "dd-MMMM-yyyy";
+        Date today = new Date();
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat(datePattern);
+        String dateOutput = simpleDateFormat.format(today);
+        System.out.println("Date Today : " + dateOutput);
         System.out.println("--------------------------------------");
     }
 
     //9.Write a program to display times in different country format.
     static void question9(){
         System.out.println("9.Write a program to display times in different country format.");
+        Date date = new Date();
+        System.out.println(date.toString());
         System.out.println("--------------------------------------");
     }
 
