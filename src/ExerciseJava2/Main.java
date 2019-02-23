@@ -2,6 +2,9 @@ package ExerciseJava2;
 
 import java.util.Scanner;
 
+//======================================================================
+//  Question 4 Class for Reference
+//======================================================================
 class Single {
     private static Single ourInstance = new Single();
 
@@ -15,6 +18,62 @@ class Single {
     }
 }
 
+//======================================================================
+//  Question 12 Class for Reference
+//======================================================================
+class Parent extends Grandparent {
+    {
+        System.out.println("instance - parent");
+    }
+
+    public Parent() {
+        System.out.println("constructor - parent");
+    }
+
+    static {
+        System.out.println("static - parent");
+    }
+}
+
+class Grandparent {
+     static {
+        System.out.println("static - grandparent");
+     }
+
+     {
+         System.out.println("instance - grandparent");
+     }
+
+     public Grandparent() {
+        System.out.println("constructor - grandparent");
+     }
+}
+class Child extends Parent {
+    public Child() {
+        System.out.println("constructor - child");
+    }
+
+    static {
+        System.out.println("static - child");
+    }
+
+    {
+        System.out.println("instance - child");
+    }
+}
+
+//======================================================================
+//  Question 13 Class for Reference
+//======================================================================
+class MyExceptionClass extends Exception{
+    public MyExceptionClass(String msg){
+        super(msg);
+    }
+}
+
+//======================================================================
+//  Main Class
+//======================================================================
 
 public class Main implements Cloneable{
 
@@ -40,6 +99,7 @@ public class Main implements Cloneable{
 //     1.Create Java classes having suitable attributes for Library management system.Use OOPs concepts in your design.Also try to use interfaces and abstract classes.
     static void question1() {
         System.out.println("Q1. Create Java classes having suitable attributes for Library management system.Use OOPs concepts in your design.Also try to use interfaces and abstract classes.");
+        System.out.println("Refer LibraryManagementSytem.java in the same folder.");
         System.out.println("------------------------------------------");
     }
 
@@ -151,163 +211,166 @@ public class Main implements Cloneable{
     //a)while statement
     //b)do-while statement
     static void question8(){
-        System.out.println("Using While");
         boolean flag = true;
-        Scanner keyb1 = new Scanner(System.in);
+        Scanner sc1 = new Scanner(System.in);
+        System.out.println("Using While");
         System.out.println("Enter a word.(Enter done to stop)");
-        String word1 = keyb1.next();
-        //System.out.println("Outside"+flag);
-        StringBuffer s = new StringBuffer();
         while(flag){
-            
+            String word = sc1.next();
+            if (word.equalsIgnoreCase("done")) {
+                flag = false;
+            } else if (word.charAt(0) == word.charAt(word.length() - 1)) {
+                System.out.println(word + " first and last character match");
+            } else {
+                System.out.println(word + " first and last character do not match");
+            }
         }
-//        while((!word1.equals("done"))&&(flag))
-//        {
-//            if(word1.equals("done")){
-//                s.append(word1);
-//                flag = false;
-//            }else{
-//                word1 = keyb1.next();
-//            }
-////            System.out.println("Inside"+flag);
-////            if(word1.charAt(0) == word1.charAt(word1.length() - 1))
-////            {
-////                flag = false;
-////                System.out.println("First & Last character equal.");
-////            }else
-////            {
-////                flag=false;
-////                System.out.println("First & Last character not equal." );
-////            }
-//
-//
-//        }
-//        keyb1.close();
-
-        //System.out.println("Enter a word.(Enter done to stop)");
-//        String word2 = keyb.next();
-//
-//        while(!word2.equals("done"))
-//        {
-//            if(word2.charAt(0) == word2.charAt(word2.length() - 1))
-//            {
-////                flag = false;
-//                System.out.println("First & Last character equal.");
-//            }else
-//            {
-////                flag = false;
-//                System.out.println(" First & Last character not equal." );
-//            }
-//            word2 = keyb.next();
-//        }
-
-        System.out.println();
+        System.out.println("While Complete");
+        System.out.println("Using Do While");
+        flag = true;
+        Scanner sc2 = new Scanner(System.in);
+        do{
+            String word = sc2.next();
+            if (word.equalsIgnoreCase("done")) {
+                flag = false;
+            } else if (word.charAt(0) == word.charAt(word.length() - 1)) {
+                System.out.println(word + " first and last character match");
+            } else {
+                System.out.println(word + " first and last character do not match");
+            }
+        }while(flag);
+        System.out.println("Do-While Complete");
         System.out.println("------------------------------------------");
     }
 
     //9.  Design classes having attributes for furniture where there are wooden chairs and tables, metal chairs and tables. There are stress and fire tests for each products.
-    static void question9(){
-        System.out.println();
+    static void question9() {
+        System.out.println("Q9.  Design classes having attributes for furniture where there are wooden chairs and tables, metal chairs and tables. There are stress and fire tests for each products.");
+        System.out.println("Refer Furniture.java in the same package");
         System.out.println("------------------------------------------");
     }
 
 
-    //10. Design classes having attributes and method(only skeleton) for a coffee shop. There are three different actors in our scenario and i have listed the different actions they do also below
-    //* Customer
-    //  - Pays the cash to the cashier and places his order, get a token number back
-    //  - Waits for the intimation that order for his token is ready
-    //  - Upon intimation/notification he collects the coffee and enjoys his drink
-    //  ( Assumption:  Customer waits till the coffee is done, he wont timeout and cancel the order. Customer always likes the drink served. Exceptions like he not liking his coffee, he getting wrong coffee are not considered to keep the design simple.)
-    //
-    //* Cashier
-    //  - Takes an order and payment from the customer
-    //  - Upon payment, creates an order and places it into the order queue
-    //  - Intimates the customer that he has to wait for his token and gives him his token
-    //  ( Assumption: Token returned to the customer is the order id. Order queue is unlimited. With a simple modification, we can design for a limited queue size)
-    //
-    //* Barista
-    // - Gets the next order from the queue
-    // - Prepares the coffee
-    // - Places the coffee in the completed order queue
-    // - Places a notification that order for token is ready
+/*    10. Design classes having attributes and method(only skeleton) for a coffee shop. There are three different actors in our scenario and i have listed the different actions they do also below
+    * Customer
+      - Pays the cash to the cashier and places his order, get a token number back
+      - Waits for the intimation that order for his token is ready
+      - Upon intimation/notification he collects the coffee and enjoys his drink
+      ( Assumption:  Customer waits till the coffee is done, he wont timeout and cancel the order. Customer always likes the drink served. Exceptions like he not liking his coffee, he getting wrong coffee are not considered to keep the design simple.)
+
+    * Cashier
+      - Takes an order and payment from the customer
+      - Upon payment, creates an order and places it into the order queue
+      - Intimates the customer that he has to wait for his token and gives him his token
+      ( Assumption: Token returned to the customer is the order id. Order queue is unlimited. With a simple modification, we can design for a limited queue size)
+
+    * Barista
+     - Gets the next order from the queue
+     - Prepares the coffee
+     - Places the coffee in the completed order queue
+     - Places a notification that order for token is ready*/
     static void question10(){
-        System.out.println();
+        System.out.println("Q10. Design classes having attributes and method(only skeleton) for a coffee shop. There are three different actors in our scenario and i have listed the different actions");
+        System.out.println("Refer CoffeeShop.java in the same package");
         System.out.println("------------------------------------------");
     }
 
-    //11. Convert the following code so that it uses nested while statements instead of for statements:
-    //    int s = 0;
-    //    int t = 1;
-    //    for (int i = 0; i < 10; i++)
-    //    {
-    //    s = s + i;
-    //    for (int j = i; j > 0; j−−)
-    //    {
-    //    t = t * (j - i);
-    //    }
-    //    s = s * t;
-    //    System.out.println("T is " + t);
-    //    }
-    //    System.out.println("S is " + s);
+   /* 11. Convert the following code so that it uses nested while statements instead of for statements:
+        int s = 0;
+        int t = 1;
+        for (int i = 0; i < 10; i++)
+        {
+        s = s + i;
+        for (int j = i; j > 0; j−−)
+        {
+        t = t * (j - i);
+        }
+        s = s * t;
+        System.out.println("T is " + t);
+        }
+        System.out.println("S is " + s);*/
     static void question11(){
-        System.out.println();
+        System.out.println("11. Convert the following code so that it uses nested while statements instead of for statements");
+        int s = 0;
+        int t = 1;
+        int i = 0;
+        while( i < 10)
+        {
+            s = s + i;
+            int j = i;
+            while( j > 0)
+            {
+                t = t * (j - i);
+                j--;
+            }
+            s = s * t;
+            System.out.println("T is " + t);
+            i++;
+        }
+        System.out.println("S is " + s);
         System.out.println("------------------------------------------");
     }
 
-    //12.What will be the  output on new Child(); ?
-    //    class Parent extends Grandparent {
-    //
-    //        {
-    //        System.out.println("instance - parent");
-    //        }
-    //
-    //        public Parent() {
-    //        System.out.println("constructor - parent");
-    //        }
-    //
-    //        static {
-    //        System.out.println("static - parent");
-    //        }
-    //    }
-    //
-    //    class Grandparent {
-    //
-    //        static {
-    //        System.out.println("static - grandparent");
-    //        }
-    //
-    //        {
-    //        System.out.println("instance - grandparent");
-    //        }
-    //
-    //        public Grandparent() {
-    //        System.out.println("constructor - grandparent");
-    //        }
-    //    }
-    //
-    //    class Child extends Parent {
-    //
-    //        public Child() {
-    //        System.out.println("constructor - child");
-    //        }
-    //
-    //        static {
-    //        System.out.println("static - child");
-    //        }
-    //
-    //        {
-    //        System.out.println("instance - child");
-    //        }
-    //    }
+    /*12.What will be the  output on new Child(); ?
+        class Parent extends Grandparent {
+
+            {
+            System.out.println("instance - parent");
+            }
+
+            public Parent() {
+            System.out.println("constructor - parent");
+            }
+
+            static {
+            System.out.println("static - parent");
+            }
+        }
+
+        class Grandparent {
+
+            static {
+            System.out.println("static - grandparent");
+            }
+
+            {
+            System.out.println("instance - grandparent");
+            }
+
+            public Grandparent() {
+            System.out.println("constructor - grandparent");
+            }
+        }
+
+        class Child extends Parent {
+
+            public Child() {
+            System.out.println("constructor - child");
+            }
+
+            static {
+            System.out.println("static - child");
+            }
+
+            {
+            System.out.println("instance - child");
+            }
+        }*/
     static void question12(){
-        System.out.println();
+        System.out.println("12.What will be the  output on new Child(); ?");
+        Child c = new Child();
+        //System.out.println(c);
         System.out.println("------------------------------------------");
     }
-
 
     //13. Create a custom exception that do not have any stack trace.
-    static void question13(){
-        System.out.println();
+    static void question13(int age) throws MyExceptionClass {
+        System.out.println("Q13. Create a custom exception that do not have any stack trace.");
+        System.out.println("Exception will occur if age < 18");
+        System.out.println("Current age "+age);
+        if(age<18){
+            throw new MyExceptionClass("Age Should be greater than 18");
+        }
         System.out.println("------------------------------------------");
     }
 
@@ -325,6 +388,12 @@ public class Main implements Cloneable{
         question10();
         question11();
         question12();
-        question13();
+        try {
+            question13(17);
+        } catch (MyExceptionClass e) {
+            System.out.println("Exception Occurred");
+            e.fillInStackTrace();
+            System.out.println(e);
+        }
     }
 }

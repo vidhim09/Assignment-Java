@@ -1,5 +1,7 @@
 package main;
 
+import java.util.Scanner;
+
 import static sun.misc.Version.print;
 
 public class Test {
@@ -9,6 +11,81 @@ public class Test {
 
     private static final int b = 991;
 
+    //8. WAP to read words from the keyboard until the word done is entered. For each word except done, report whether its first character is equal   to  its last character. For the required loop, use a
+    //a)while statement
+    //b)do-while statement
+    static void question8(){
+        System.out.println("Using While");
+        boolean flag = true;
+        Scanner keyb1 = new Scanner(System.in);
+        System.out.println("Using While");
+        System.out.println("Enter a word.(Enter done to stop)");
+        String word1;
+        //System.out.println("Outside"+flag);
+        StringBuffer s = new StringBuffer();
+        while(flag){
+            word1 = keyb1.next();
+            if(word1.equals("done")){
+                flag = false;
+            }
+            else {
+                s.append(word1);
+                //word1 = keyb1.next();
+            }
+        }
+        if(s.charAt(0) == s.charAt(s.length() - 1)) {
+            System.out.println("First & Last character equal.");
+        }else {
+            System.out.println("First & Last character not equal." );
+        }
+        System.out.println(s);
+//        while((!word1.equals("done"))&&(flag))
+//        {
+//            if(word1.equals("done")){
+//                s.append(word1);
+//                flag = false;
+//            }else{
+//                word1 = keyb1.next();
+//            }
+////            System.out.println("Inside"+flag);
+////            if(word1.charAt(0) == word1.charAt(word1.length() - 1))
+////            {
+////                flag = false;
+////                System.out.println("First & Last character equal.");
+////            }else
+////            {
+////                flag=false;
+////                System.out.println("First & Last character not equal." );
+////            }
+//
+//
+//        }
+//        keyb1.close();
+
+        //System.out.println("Enter a word.(Enter done to stop)");
+//        String word2 = keyb.next();
+//
+//        while(!word2.equals("done"))
+//        {
+//            if(word2.charAt(0) == word2.charAt(word2.length() - 1))
+//            {
+////                flag = false;
+//                System.out.println("First & Last character equal.");
+//            }else
+//            {
+////                flag = false;
+//                System.out.println(" First & Last character not equal." );
+//            }
+//            word2 = keyb.next();
+//        }
+
+
+
+
+
+        System.out.println();
+        System.out.println("------------------------------------------");
+    }
     static  int a = 10;
     public static void main(String[] args) throws ClassNotFoundException, IllegalAccessException, InstantiationException {
         //Object emp1 = Class.forName("main.Employee").newInstance();
@@ -56,6 +133,23 @@ public class Test {
         System.out.println("0".hashCode());
         System.out.println("9".hashCode());
 
-        System.out.println(s1.replace("D","A"));
+
+        Scanner keyScan = new Scanner(System.in);
+        boolean notDone = true;
+
+        while(notDone) {
+            System.out.println("");
+            String word = keyScan.next();
+            String checkFirst = word.substring(0, 1);
+            String checkLast = word.substring(word.length() - 1);
+
+            if (word.equalsIgnoreCase("done")) {
+                notDone = false;
+            } else if (checkFirst.equalsIgnoreCase(checkLast)) {
+                System.out.println(word + " does match");
+            } else {
+                System.out.println(word + " does not match");
+            }
+        }
     }
 }
