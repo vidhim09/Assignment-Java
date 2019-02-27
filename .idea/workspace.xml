@@ -2,9 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1219dbfe-a940-4844-bfd8-80c53df8c19e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ExerciseJava2/Question3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExerciseCollections/AssignmentCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExerciseCollections/AssignmentCollection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExerciseJava2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExerciseJava2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExerciseThreading/AtomicClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExerciseThreading/CreateThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExerciseThreading/NewCachedNewFixed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExerciseThreading/ScheduleExecuterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExerciseThreading/SignalAndAwait.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExerciseThreading/SingleThreadExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExerciseThreading/SynchronizeBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExerciseThreading/SynchronizeMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExerciseThreading/TryLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExerciseThreading/UsingFutureClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExerciseThreading/WaitAndNotify.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Employee/ExerciseThreading/AssignmentThreading.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Employee/ExerciseThreading/AssignmentThreading.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExerciseThreading/AssignmentThreading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExerciseThreading/AssignmentThreading.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,8 +29,9 @@
     <session id="885435942">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.102" value="1" />
+          <entry key="project.open.time.2994" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.69" value="1" />
           <entry key="project.open.time.71" value="1" />
@@ -26,17 +39,18 @@
           <entry key="project.open.time.74" value="1" />
           <entry key="project.open.time.78" value="1" />
           <entry key="project.open.time.79" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.open.time.82" value="1" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="15" />
+          <entry key="JAVA" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="14880" />
+          <entry key="JAVA" value="17107" />
         </counts>
       </usages-collector>
     </session>
@@ -44,69 +58,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ExerciseJava2/LibraryManagementSystem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="154" column="1" lean-forward="true" selection-start-line="154" selection-start-column="1" selection-end-line="154" selection-end-column="1" />
-              <folding>
-                <element signature="class#LibraryManagementSystem#0" />
-                <element signature="class#Account#0" />
-                <element signature="e#326#327#0" expanded="true" />
-                <element signature="e#351#352#0" expanded="true" />
-                <element signature="e#384#385#0" expanded="true" />
-                <element signature="e#412#413#0" expanded="true" />
-                <element signature="e#447#448#0" expanded="true" />
-                <element signature="e#480#481#0" expanded="true" />
-                <element signature="e#530#531#0" expanded="true" />
-                <element signature="e#574#575#0" expanded="true" />
-                <element signature="e#614#615#0" expanded="true" />
-                <element signature="e#648#649#0" expanded="true" />
-                <element signature="e#704#705#0" expanded="true" />
-                <element signature="e#750#751#0" expanded="true" />
-                <element signature="e#789#790#0" expanded="true" />
-                <element signature="e#824#825#0" expanded="true" />
-                <element signature="e#880#881#0" expanded="true" />
-                <element signature="e#928#929#0" expanded="true" />
-                <element signature="e#956#957#0" expanded="true" />
-                <element signature="e#983#984#0" expanded="true" />
-                <element signature="e#1020#1021#0" expanded="true" />
-                <element signature="e#1052#1053#0" expanded="true" />
-                <element signature="class#Book#0" />
-                <element signature="e#1230#1231#0" expanded="true" />
-                <element signature="e#1257#1258#0" expanded="true" />
-                <element signature="e#1297#1298#0" expanded="true" />
-                <element signature="e#1329#1330#0" expanded="true" />
-                <element signature="e#1363#1364#0" expanded="true" />
-                <element signature="e#1393#1394#0" expanded="true" />
-                <element signature="e#1439#1440#0" expanded="true" />
-                <element signature="e#1477#1478#0" expanded="true" />
-                <element signature="e#1506#1507#0" expanded="true" />
-                <element signature="e#1534#1535#0" expanded="true" />
-                <element signature="e#1573#1574#0" expanded="true" />
-                <element signature="e#1607#1608#0" expanded="true" />
-                <element signature="e#1640#1641#0" expanded="true" />
-                <element signature="e#1669#1670#0" expanded="true" />
-                <element signature="e#1713#1714#0" expanded="true" />
-                <element signature="e#1749#1750#0" expanded="true" />
-                <element signature="e#1784#1785#0" expanded="true" />
-                <element signature="e#1815#1816#0" expanded="true" />
-                <element signature="e#1863#1864#0" expanded="true" />
-                <element signature="e#1903#1904#0" expanded="true" />
-                <element signature="class#Author#0" />
-                <element signature="class#Librarian#0" />
-                <element signature="class#Management#0" />
-                <element signature="class#Fine#0" />
-                <element signature="class#Search#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ExerciseCollections/AssignmentCollection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1118">
-              <caret line="312" column="42" selection-start-line="312" selection-start-column="42" selection-end-line="312" selection-end-column="42" />
+            <state relative-caret-position="102">
+              <caret line="190" column="8" selection-start-line="190" selection-start-column="8" selection-end-line="193" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="class#Employee#0" />
@@ -114,40 +69,58 @@
                 <element signature="class#Student#0" />
                 <element signature="method#toString#0;class#Student#0" />
                 <element signature="method#Student#0;class#Student#0" />
-                <element signature="e#3583#3584#0" expanded="true" />
-                <element signature="e#3613#3614#0" expanded="true" />
-                <element signature="e#3869#3870#0" expanded="true" />
-                <element signature="e#3901#3902#0" expanded="true" />
                 <element signature="method#question3#0;class#AssignmentCollection#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ExerciseJava2/Main.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ExerciseThreading/AssignmentThreading.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="130" column="8" selection-start-line="130" selection-start-column="8" selection-end-line="130" selection-end-column="8" />
+            <state relative-caret-position="141">
+              <caret line="118" column="41" selection-start-line="118" selection-start-column="41" selection-end-line="118" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ExerciseThreading/TryLock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="51" lean-forward="true" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
               <folding>
-                <element signature="method#question1#0;class#Main#0" />
-                <element signature="method#question4#0;class#Main#0" />
-                <element signature="method#question5#0;class#Main#0" />
-                <element signature="method#question6#0;class#Main#0" />
-                <element signature="method#question7#0;class#Main#0" />
-                <element signature="method#question8#0;class#Main#0" />
-                <element signature="method#question11#0;class#Main#0" />
-                <element signature="method#question12#0;class#Main#0" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#322#323#0" expanded="true" />
+                <element signature="e#371#372#0" expanded="true" />
+                <element signature="e#485#486#0" expanded="true" />
+                <element signature="e#534#535#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ExerciseJava2/Question3.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ExerciseThreading/SignalAndAwait.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+            <state relative-caret-position="95">
+              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="14" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#659#660#0" expanded="true" />
+                <element signature="e#704#705#0" expanded="true" />
+                <element signature="e#829#830#0" expanded="true" />
+                <element signature="e#874#875#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ExerciseThreading/WaitAndNotify.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -183,14 +156,26 @@
         <option value="$PROJECT_DIR$/src/main/Employee.java" />
         <option value="$PROJECT_DIR$/src/Exercise/Assignment.java" />
         <option value="$PROJECT_DIR$/src/ExerciseJava2/Single.java" />
-        <option value="$PROJECT_DIR$/src/ExerciseThreading/AssignmentThreading.java" />
         <option value="$PROJECT_DIR$/src/main/Test.java" />
         <option value="$PROJECT_DIR$/src/ExerciseJava2/LibraryManagementSystem.java" />
         <option value="$PROJECT_DIR$/src/ExerciseJava2/Furniture.java" />
         <option value="$PROJECT_DIR$/src/ExerciseJava2/CoffeeShop.java" />
         <option value="$PROJECT_DIR$/src/ExerciseCollections/AssignmentCollection.java" />
-        <option value="$PROJECT_DIR$/src/ExerciseJava2/Main.java" />
         <option value="$PROJECT_DIR$/src/ExerciseJava2/Question3.java" />
+        <option value="$PROJECT_DIR$/src/ExerciseJava2/Main.java" />
+        <option value="$PROJECT_DIR$/src/ExerciseThreading/CreateThread.java" />
+        <option value="$PROJECT_DIR$/src/ExerciseThreading/SingleThreadExecutor.java" />
+        <option value="$PROJECT_DIR$/src/ExerciseThreading/UsingFutureClass.java" />
+        <option value="$PROJECT_DIR$/src/ExerciseThreading/ExecuterServiceSchdulingTask.java" />
+        <option value="$PROJECT_DIR$/src/ExerciseThreading/ScheduleExecuterService.java" />
+        <option value="$PROJECT_DIR$/src/ExerciseThreading/NewCachedNewFixed.java" />
+        <option value="$PROJECT_DIR$/src/ExerciseThreading/SynchronizeMethod.java" />
+        <option value="$PROJECT_DIR$/src/ExerciseThreading/SynchronizeBlock.java" />
+        <option value="$PROJECT_DIR$/src/ExerciseThreading/AtomicClasses.java" />
+        <option value="$PROJECT_DIR$/src/ExerciseThreading/WaitAndNotify.java" />
+        <option value="$PROJECT_DIR$/src/ExerciseThreading/SignalAndAwait.java" />
+        <option value="$PROJECT_DIR$/src/ExerciseThreading/TryLock.java" />
+        <option value="$PROJECT_DIR$/src/ExerciseThreading/AssignmentThreading.java" />
       </list>
     </option>
   </component>
@@ -217,7 +202,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -234,32 +218,20 @@
               <item name="Employee" type="b2602c69:ProjectViewProjectNode" />
               <item name="Employee" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ExerciseJava2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Employee" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Employee" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ExerciseJava2" type="462c0819:PsiDirectoryNode" />
-              <item name="Main.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="Employee" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Employee" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="ExerciseThreading" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550953466083" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551285355377" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -278,13 +250,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Question3">
-    <configuration name="Assignment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercise.Assignment" />
+  <component name="RunManager" selected="Application.TryLock">
+    <configuration name="AtomicClasses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExerciseThreading.AtomicClasses" />
       <module name="Employee" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exercise.*" />
+          <option name="PATTERN" value="ExerciseThreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -292,12 +264,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AssignmentCollection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ExerciseCollections.AssignmentCollection" />
+    <configuration name="SignalAndAwait" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExerciseThreading.SignalAndAwait" />
       <module name="Employee" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ExerciseCollections.*" />
+          <option name="PATTERN" value="ExerciseThreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -305,12 +277,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ExerciseJava2.Main" />
+    <configuration name="SynchronizeBlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExerciseThreading.SynchronizeBlock" />
       <module name="Employee" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ExerciseJava2.*" />
+          <option name="PATTERN" value="ExerciseThreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -318,12 +290,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ExerciseJava2.Question3" />
+    <configuration name="TryLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExerciseThreading.TryLock" />
       <module name="Employee" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ExerciseJava2.*" />
+          <option name="PATTERN" value="ExerciseThreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -331,12 +303,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.Test" />
+    <configuration name="WaitAndNotify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExerciseThreading.WaitAndNotify" />
       <module name="Employee" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.*" />
+          <option name="PATTERN" value="ExerciseThreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -345,19 +317,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.Assignment" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.AssignmentCollection" />
-      <item itemvalue="Application.Question3" />
+      <item itemvalue="Application.SynchronizeBlock" />
+      <item itemvalue="Application.AtomicClasses" />
+      <item itemvalue="Application.WaitAndNotify" />
+      <item itemvalue="Application.SignalAndAwait" />
+      <item itemvalue="Application.TryLock" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Question3" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.AssignmentCollection" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Assignment" />
+        <item itemvalue="Application.TryLock" />
+        <item itemvalue="Application.SignalAndAwait" />
+        <item itemvalue="Application.WaitAndNotify" />
+        <item itemvalue="Application.AtomicClasses" />
+        <item itemvalue="Application.SynchronizeBlock" />
       </list>
     </recent_temporary>
   </component>
@@ -379,12 +351,14 @@
       <workItem from="1550809130682" duration="22559000" />
       <workItem from="1550852849703" duration="8365000" />
       <workItem from="1550904045076" duration="4912000" />
-      <workItem from="1550909677903" duration="22481000" />
+      <workItem from="1550909677903" duration="23156000" />
+      <workItem from="1551182003876" duration="2529000" />
+      <workItem from="1551267528968" duration="12533000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109708000" />
+    <option name="totallyTimeSpent" value="125445000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -404,7 +378,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.18257576" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.18863636" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.3291367" />
@@ -412,7 +386,7 @@
       <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.3291367" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.29316548" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.32553956" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.3291367" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
@@ -471,13 +445,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/ExerciseJava2/Single.java" />
-    <entry file="file://$PROJECT_DIR$/src/ExerciseThreading/AssignmentThreading.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Exercise/Assignment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="397">
@@ -499,66 +466,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ExerciseJava2/LibraryManagementSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="154" column="1" lean-forward="true" selection-start-line="154" selection-start-column="1" selection-end-line="154" selection-end-column="1" />
-          <folding>
-            <element signature="class#LibraryManagementSystem#0" />
-            <element signature="class#Account#0" />
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#384#385#0" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
-            <element signature="e#530#531#0" expanded="true" />
-            <element signature="e#574#575#0" expanded="true" />
-            <element signature="e#614#615#0" expanded="true" />
-            <element signature="e#648#649#0" expanded="true" />
-            <element signature="e#704#705#0" expanded="true" />
-            <element signature="e#750#751#0" expanded="true" />
-            <element signature="e#789#790#0" expanded="true" />
-            <element signature="e#824#825#0" expanded="true" />
-            <element signature="e#880#881#0" expanded="true" />
-            <element signature="e#928#929#0" expanded="true" />
-            <element signature="e#956#957#0" expanded="true" />
-            <element signature="e#983#984#0" expanded="true" />
-            <element signature="e#1020#1021#0" expanded="true" />
-            <element signature="e#1052#1053#0" expanded="true" />
-            <element signature="class#Book#0" />
-            <element signature="e#1230#1231#0" expanded="true" />
-            <element signature="e#1257#1258#0" expanded="true" />
-            <element signature="e#1297#1298#0" expanded="true" />
-            <element signature="e#1329#1330#0" expanded="true" />
-            <element signature="e#1363#1364#0" expanded="true" />
-            <element signature="e#1393#1394#0" expanded="true" />
-            <element signature="e#1439#1440#0" expanded="true" />
-            <element signature="e#1477#1478#0" expanded="true" />
-            <element signature="e#1506#1507#0" expanded="true" />
-            <element signature="e#1534#1535#0" expanded="true" />
-            <element signature="e#1573#1574#0" expanded="true" />
-            <element signature="e#1607#1608#0" expanded="true" />
-            <element signature="e#1640#1641#0" expanded="true" />
-            <element signature="e#1669#1670#0" expanded="true" />
-            <element signature="e#1713#1714#0" expanded="true" />
-            <element signature="e#1749#1750#0" expanded="true" />
-            <element signature="e#1784#1785#0" expanded="true" />
-            <element signature="e#1815#1816#0" expanded="true" />
-            <element signature="e#1863#1864#0" expanded="true" />
-            <element signature="e#1903#1904#0" expanded="true" />
-            <element signature="class#Author#0" />
-            <element signature="class#Librarian#0" />
-            <element signature="class#Management#0" />
-            <element signature="class#Fine#0" />
-            <element signature="class#Search#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -576,10 +483,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ExerciseJava2/LibraryManagementSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="154" column="1" selection-start-line="154" selection-start-column="1" selection-end-line="154" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ExerciseJava2/Question3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ExerciseJava2/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="147" column="5" selection-start-line="147" selection-start-column="5" selection-end-line="147" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ExerciseThreading/SingleThreadExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ExerciseThreading/ExecuterServiceSchdulingTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="16" column="63" lean-forward="true" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ExerciseThreading/UsingFutureClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ExerciseThreading/CreateThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ExerciseCollections/AssignmentCollection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1118">
-          <caret line="312" column="42" selection-start-line="312" selection-start-column="42" selection-end-line="312" selection-end-column="42" />
+        <state relative-caret-position="102">
+          <caret line="190" column="8" selection-start-line="190" selection-start-column="8" selection-end-line="193" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="class#Employee#0" />
@@ -587,36 +552,97 @@
             <element signature="class#Student#0" />
             <element signature="method#toString#0;class#Student#0" />
             <element signature="method#Student#0;class#Student#0" />
-            <element signature="e#3583#3584#0" expanded="true" />
-            <element signature="e#3613#3614#0" expanded="true" />
-            <element signature="e#3869#3870#0" expanded="true" />
-            <element signature="e#3901#3902#0" expanded="true" />
             <element signature="method#question3#0;class#AssignmentCollection#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ExerciseJava2/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/ExerciseThreading/ScheduleExecuterService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="130" column="8" selection-start-line="130" selection-start-column="8" selection-end-line="130" selection-end-column="8" />
+        <state relative-caret-position="237">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
           <folding>
-            <element signature="method#question1#0;class#Main#0" />
-            <element signature="method#question4#0;class#Main#0" />
-            <element signature="method#question5#0;class#Main#0" />
-            <element signature="method#question6#0;class#Main#0" />
-            <element signature="method#question7#0;class#Main#0" />
-            <element signature="method#question8#0;class#Main#0" />
-            <element signature="method#question11#0;class#Main#0" />
-            <element signature="method#question12#0;class#Main#0" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ExerciseJava2/Question3.java">
+    <entry file="file://$PROJECT_DIR$/src/ExerciseThreading/NewCachedNewFixed.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        <state relative-caret-position="75">
+          <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ExerciseThreading/SynchronizeMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-210">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ExerciseThreading/SynchronizeBlock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="46" column="5" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="46" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ExerciseThreading/AtomicClasses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+          <folding>
+            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#231#232#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ExerciseThreading/WaitAndNotify.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ExerciseThreading/SignalAndAwait.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="14" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#704#705#0" expanded="true" />
+            <element signature="e#829#830#0" expanded="true" />
+            <element signature="e#874#875#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ExerciseThreading/TryLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="51" lean-forward="true" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ExerciseThreading/AssignmentThreading.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="118" column="41" selection-start-line="118" selection-start-column="41" selection-end-line="118" selection-end-column="41" />
         </state>
       </provider>
     </entry>
