@@ -30,7 +30,7 @@ public class TryLock {
         lock1.unlock();
         lock2.unlock();
     }
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) throws InterruptedException,IllegalMonitorStateException {
         TryLock tryLock = new TryLock();
         Thread t1 = new Thread(new Runnable() {
             @Override

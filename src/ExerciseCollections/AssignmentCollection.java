@@ -162,6 +162,69 @@ class SortComparator implements Comparator<Integer>{
     }
 }
 
+//======================================================================
+//  Question 7 Class for Reference
+//======================================================================
+
+class SpecialStack{
+    Stack<Integer> stack;
+    int min;
+
+    SpecialStack(){
+        stack = new Stack<>();
+        System.out.println("Stack Created with Size 5");
+    }
+    public boolean isEmpty(){
+        if(stack.isEmpty()){
+            System.out.println("Stack is Empty");
+            return true;
+        }
+        return false;
+    }
+
+    public boolean isFull(){
+        if(stack.size()==5){
+            System.out.println("Stack is Full");
+            return true;
+        }
+        return false;
+    }
+
+    public void push(int p){
+        if(this.isFull()){
+            System.out.println("Element can not be pushed "+p);
+            return;
+        }
+        stack.push(p);
+        System.out.println("Element Pushed "+p);
+        if(stack.size()==1)
+            min = p;
+        if(p < min){
+            min = p;
+        }
+    }
+
+    public void pop(){
+        if (this.isEmpty()){
+            System.out.println("Element can not be popped");
+            return;
+        }
+        int elem = stack.pop();
+        System.out.println("Popped Element "+elem);
+    }
+
+    public void getMin(){
+        if (this.isEmpty()){
+            System.out.println("Element can not be popped");
+            return;
+        }
+        System.out.println("Minimum Element "+min);
+    }
+    public void display(){
+        System.out.println("Current Stack");
+        System.out.println(stack.toString());
+    }
+}
 
 //======================================================================
 //  Main Class
@@ -292,6 +355,23 @@ public class AssignmentCollection {
     //7.Design a Data Structure SpecialStack that supports all the stack operations like push(), pop(), isEmpty(), isFull() and an additional operation getMin() which should return minimum element from the SpecialStack. (Expected complexity ­ O(1))
     static void question7(){
         System.out.println("7.Design a Data Structure SpecialStack that supports all the stack operations like push(), pop(), isEmpty(), isFull() and an additional operation getMin() which should return minimum element from the SpecialStack. (Expected complexity \u00AD O(1))");
+        SpecialStack specialStack = new SpecialStack();
+        System.out.println("Calling isEmpty");
+        specialStack.isEmpty();
+        specialStack.push(20);
+        specialStack.push(40);
+        specialStack.push(30);
+        specialStack.getMin();
+        specialStack.pop();
+        specialStack.push(10);
+        specialStack.push(50);
+        specialStack.push(60);
+        specialStack.push(5);
+        specialStack.display();
+        System.out.println("Calling isFull");
+        specialStack.isFull();
+        specialStack.getMin();
+        specialStack.display();
         System.out.println("--------------------------------------");
     }
 
@@ -309,8 +389,15 @@ public class AssignmentCollection {
     //9.Write a program to display times in different country format.
     static void question9(){
         System.out.println("9.Write a program to display times in different country format.");
+        String datePattern = "dd-MMMM-yyyy HH:mm:ss.SSSZ";
         Date date = new Date();
-        System.out.println(date.toString());
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat(datePattern);
+        String dateOutput = simpleDateFormat.format(date);
+        System.out.println("Time according India : " + dateOutput);
+        simpleDateFormat.setTimeZone(TimeZone.getTimeZone("Europe/London"));
+        System.out.println("Time according UK : " + simpleDateFormat.format(date));
+        simpleDateFormat.setTimeZone(TimeZone.getTimeZone("Europe/Paris"));
+        System.out.println("Time according France : " + simpleDateFormat.format(date));
         System.out.println("--------------------------------------");
     }
 
